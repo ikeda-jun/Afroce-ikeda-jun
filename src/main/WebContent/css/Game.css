@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+
+small{
+  background:#333;
+  color:#fff;
+  display: block;
+  text-align: center;
+  padding:20px;
+}
+
+#sample {
+  background: -moz-linear-gradient(top , black, #FFF);
+  background: -webkit-linear-gradient(top , black #FFF);
+  background: linear-gradient(to bottom, black, #FFF);
+  /*グラデーション以外は省略*/
+}
+
+
+
+
+.sample_box11 {
+   width: 260px;/* 紙の横幅 100%にすると全幅表示に */
+   padding: 15px;
+   margin: 2em auto;
+   background: #00FF7F;/* 紙の色 */
+   color: #000;/* 文字色 */
+   box-shadow: 4px 4px 4px rgba(0,0,0,0.03);transform:rotate(2deg);
+   word-break: break-all;
+}
+.sample_box11 p {
+    margin: 0; 
+    padding: 0;
+    font-size: 0.9em;
+}
+.sample_box11_tape {
+    width: 50%;
+    height: 35px;
+    margin: -25px auto 0;
+    background: #989898;
+    transform: rotate(-3deg);
+    opacity: 0.5;
+}
+.sample_box11_title {
+    text-align: center;
+    font-size: 2.0em!important;
+    margin-top: 10px!important;
+    font-family: 'Pompiere', cursive;
+}
+.sample_box11_subtitle {
+    text-align: center;
+    font-size: 0.7em!important;
+    margin-bottom: 1em!important;
+}
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider img {
+	width: auto;
+	height: 200px;
+border: 3px solid;
+	/*スライダー内の画像を横幅100%に*/
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+.slider .slick-slide {
+	margin: 0 10px; /*スライド左右の余白調整*/
+	border: 3px solid;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+ul{
+	margin: 10px;
+}
+
+h3{
+	
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	padding: 20px;
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: #333;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
